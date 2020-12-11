@@ -53,7 +53,7 @@ export default {
   },
 
   beforeCreate: function(){
-    //localStorage.setItem('current_username', 'camilo24')
+    localStorage.setItem('current_username', 'camilo24')
     localStorage.setItem('isAuth', false)
 
     //this.$router.push({name:"user",params:{username:'camilo24'}})
